@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital@0;1&display=swap');
+
+body {
+    color: white;
+    text-align: center;
+    font-family: 'Tiro Telugu', serif;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#input1 {
+    width: 300px;
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid black;
+    background-color: transparent;
+    outline: none;
+}
+
+#LogInButton {
+    width: 60px;
+    height: 45px;
+    background-color: #e7e7e7; color: black;
+    border: none;
+    border-radius: 8px;
+}
+
+#LogInButton:hover {
+    filter: brightness(90%);
+}
+
+#input2 {
+    width: 300px;
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid black;
+    background-color: transparent;
+    margin-right: 60px;
+    outline: none;
+}
+
+
+input::placeholder {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+input[type=text] {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#clock {
+    margin: 150px 0 10px 0;
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 150px;
+}
+
+
+
+#greeting {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 50px;
+}
+
+li {
+    list-style-type: circle;
+}
+
+#todo-list {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 364px;
+    height: 270px;
+    text-align: left;
+    overflow-y: auto;
+}
+
+#todo-list li:first-child {
+    margin-top: 10px;
+}
+
+#deleteTodo {
+    background-color: #e7e7e7;
+    filter: opacity(70%);
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+#deleteTodo:hover {
+    filter: brightness(100%);
+}
+
+#bgImg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(70%);
+}
+
+#quote {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+    font-size: 18px;
+}
+
+#weather {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 12px;
+}
+
+#quote span:first-child {
+    max-width: 800px;
+}
+
+#quote span:last-child {
+    padding-left: 10px;
+}
